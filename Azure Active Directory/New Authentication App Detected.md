@@ -25,7 +25,7 @@ AADSignInEventsBeta
 | project-reorder Timestamp, AccountUpn, ErrorCode, IsExternalApp, Application, AccountObjectId, IPAddress, ClientAppUsed
 
 
-## Sentinel
+## Sentinel 
 
 let KnownApps = SigninLogs
 // Adjust the timerange depending on the retention period
